@@ -19,10 +19,10 @@ export default function RootLayout({
     <html lang="en" className="dark">
       <body className={inter.className}>
         <div className="relative w-full hidden md:flex items-center">
-        <Navbar/>
+          <Navbar />
         </div>
         {children}
-        </body>
+      </body>
     </html>
   );
 }
